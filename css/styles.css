@@ -434,4 +434,38 @@ footer {
     color: var(--cloud);
     
 }
+.main-button {
+    text-align: center;
+    column-gap: 12px;    
+}
+
+.main-button-item {
+    border-radius: 4px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--CLOUD, #F4F4FD);
+    padding: 12px 24px;
+    color: var(--iris);
+    margin-right: 24px;
+    
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.portfolio-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 24px;
+    text-align: start;
+    
+}
+
+.image-text {
+    justify-content: left;
+}
 
